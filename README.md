@@ -1,9 +1,20 @@
-# JDspyder
-京东预约&amp;抢购脚本，可以自定义商品链接
-这个项目是从[JokerPeter/jd_seckill_new](https://github.com/JokerPeter/jd_seckill_new)迁移过来的。
->由于原作者2年没有更新，部分代码已经失效并重写。
+一、GIT大佬开源的抢购程序，之前的有BUG修复了一下，抢购流程前几天测了一下正常的，可以到提交订单那一步，但是抢的人太多了一直没有抢到，有需要的同事可以克隆下来试一下。
 
-关于使用的介绍在[origin_README.md](https://github.com/BlackWatch0/JDspyder/blob/main/origin_README.md)中
-eid，fp，商品id的获取方式百度都有
-如果在使用中遇到bug欢迎issue、pull，我会不定期上GitHub看看的（
-记得Star一下，~~我的第一个真正意义上算是工程的GitHub代码，给我点信心……~~
+二、运行环境Python3.8
+
+三、需要修改的地方都在config.ini中
+
+	eid:
+	fp:
+
+	这两个参数需要手动获取下，获取步骤如下
+
+	1.用浏览器打开京东
+	2.随便选一样商品，提交订单
+	3.F12打开console，输入_JdTdudfp
+	
+	sku_id这个参数也是必填的，可以百度下
+
+四、GIT地址 https://github.com/Chenyanhan/T
+
+五、该程序基于电脑端的接口，猜测使用APP接口抢到的概率会大一些
